@@ -1,8 +1,27 @@
 ### Example user template template
-### Example user template
 
 # IntelliJ project files
 .idea
 *.iml
 out
 gen
+
+# Kompilerte binærfiler
+printx
+mem
+stackoverflow
+*.o
+*.out
+*.a
+*.so
+
+# CMake
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+
+# Output fra objdump o.l.
+*.asm
+
+# macOS
+.DS_Store
